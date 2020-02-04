@@ -1,0 +1,22 @@
+h1 {
+  margin: 5rem;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  /* grid-template-columns: 200px 400px 200px 200px 200px 200px; */
+}
+.card img {
+  width: 100%;
+}
+.card {
+  transition: 0.3s;
+  cursor: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw667b19a7/images/product/60022_a.jpg?sw=100&sh=100/),
+    auto;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.info {
+  padding: 1rem;
+}
